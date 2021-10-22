@@ -1,0 +1,46 @@
+body {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: orange;
+ 
+}
+
+#counting{
+  font-size: 100px;
+  margin-right: 26px;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+} 
+
+#increase-button {
+  font-size: 50px;
+  
+}
+
+#increase-button:hover {  
+  background-color: gray;
+}
+
+#increase-button:active {
+  
+  transform: scale(1.05);
+}
+
+#decrease-button {
+  font-size: 50px;
+}
+
+#decrease-button:hover {
+  background-color: gray;
+}
+
+#decrease-button:active {
+ transform: scale(0.95); 
+}
+
